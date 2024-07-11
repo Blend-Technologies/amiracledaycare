@@ -1,8 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
+  { href: '/', key: 'Programs', label: 'Programs' },
+  { href: '/', key: 'about', label: 'About' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Accessible Location',
     icon: '/map.svg',
-    variant: 'green',
+    variant: 'purple',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'We provide a proximity solution for you whether you are at work or other important appointments',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Bookings ',
     icon: '/calendar.svg',
-    variant: 'green',
+    variant: 'purple',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Book a visit with us to know more about what we do. You can also schedule a 24 hours to a year in advance a booking for your child",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Quality',
     icon: '/tech.svg',
-    variant: 'green',
+    variant: 'purple',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'We offer quality service',
   },
   {
-    title: 'Many new locations every month',
+    title: 'New adventures',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Lots of new adventures or things to learn every month',
   },
 ];
 
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About A Miracles Daycare',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -62,15 +62,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['A Miracle Daycare Community', 'Daycare Community'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin/Owner', value: '773-552-0972' },
+    { label: 'Email Officer', value: 'tamika@gmail.com' },
   ],
 };
 
